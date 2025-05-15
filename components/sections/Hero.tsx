@@ -7,7 +7,7 @@ import { Button } from "../ui/button";
 import { FaChevronDown } from "react-icons/fa";
 
 const Hero = () => {
-  const text = "H i, Im Sadjed – Frontend Developer";
+  const text = "H ello, Im Sadjed – Frontend Developer";
   const canvasRef = useRef<HTMLCanvasElement>(null);
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -93,7 +93,13 @@ const Hero = () => {
           Crafting beautiful, responsive, and user-friendly web experiences with
           modern technologies.
         </motion.p>
-        <div className="flex gap-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          style={{ display: "flex", flexWrap: "wrap" }}
+          className="flex gap-4 transition duration-300"
+        >
           <Link href={"/projects"}>
             <Button variant="mainButton" size={"MainButtonSize"}>
               View Projects
@@ -104,7 +110,7 @@ const Hero = () => {
               Contact Me
             </Button>
           </Link>
-        </div>
+        </motion.div>
       </motion.div>
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <FaChevronDown className="text-xl" />
