@@ -13,7 +13,7 @@
 
 A modern developer portfolio showcasing full-stack projects with frontend excellence. Built with cutting-edge web technologies and best practices.
 
-![Sadjed Bougandoura Portfolio Review](sadjedportfolio.netlify.app) ![image](https://github.com/user-attachments/assets/24076514-ae9b-498d-8526-fdafbc8ea844)
+![Sadjed Bougandoura Portfolio Review]![image](https://github.com/user-attachments/assets/24076514-ae9b-498d-8526-fdafbc8ea844)(sadjedportfolio.netlify.app)
 
 ## 🚀 Features
 
