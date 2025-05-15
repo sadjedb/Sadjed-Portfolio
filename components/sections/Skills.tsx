@@ -63,7 +63,7 @@ export default function Skills() {
           <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
           <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
             An overview of my technical expertise and professional capabilities
-            that I've developed throughout my journey as a developer.
+            that I ve developed throughout my journey as a developer.
           </p>
         </motion.div>
 
@@ -73,7 +73,7 @@ export default function Skills() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="flex flex-wrap justify-center gap-4 mb-12"
         >
-          {categories.map((category, index) => (
+          {categories.map((category) => (
             <motion.button
               key={category.id}
               onClick={() => setActiveCategory(category.id)}

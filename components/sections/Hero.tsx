@@ -7,7 +7,7 @@ import { Button } from "../ui/button";
 import { FaChevronDown } from "react-icons/fa";
 
 const Hero = () => {
-  const text = "H i, I'm Sadjed – Frontend Developer";
+  const text = "H i, Im Sadjed – Frontend Developer";
   const canvasRef = useRef<HTMLCanvasElement>(null);
   useEffect(() => {
     const canvas = canvasRef.current;

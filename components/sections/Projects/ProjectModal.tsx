@@ -2,6 +2,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import React from "react";
 import { Project } from "@/types/types";
+import Image from "next/image";
 
 interface ProjectModalProps {
   isOpen: boolean;
@@ -60,7 +61,9 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
               </button>
 
               <div className="h-64 sm:h-96 overflow-hidden">
-                <img
+                <Image
+                  width={1000}
+                  height={500}
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover object-top"

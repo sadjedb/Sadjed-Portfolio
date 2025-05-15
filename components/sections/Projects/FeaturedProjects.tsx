@@ -12,6 +12,7 @@ import {
 import { Button } from "../../ui/button";
 import ProjectModal from "./ProjectModal";
 import { Project } from "@/types/types";
+import Image from "next/image";
 const FeaturedProjects = () => {
   const projects = [
     {
@@ -145,7 +146,9 @@ const FeaturedProjects = () => {
             >
               <CardHeader className="p-0">
                 <div className="h-48 overflow-hidden rounded-t-lg">
-                  <img
+                  <Image
+                    width={1000}
+                    height={500}
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover"
