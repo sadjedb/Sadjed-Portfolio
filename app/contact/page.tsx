@@ -1,23 +1,23 @@
 "use client";
 import GoBackButton from "@/components/GoBackButton";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { useState } from "react";
 import { FiMail, FiPhone, FiLinkedin, FiGithub, FiSend } from "react-icons/fi";
 
-const page = () => {
+const Page = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
 
-  const floatingVariants = {
+  const floatingVariants: Variants = {
     float: {
       y: [0, -15, 0],
       transition: {
         duration: 6,
         repeat: Infinity,
-        repeatType: "mirror" as "mirror",
+        repeatType: "mirror",
         ease: "easeInOut",
       },
     },
@@ -48,7 +48,7 @@ const page = () => {
             transition={{ delay: 0.2 }}
             className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto"
           >
-            Have a project in mind or just want to connect? Let's create
+            Have a project in mind or just want to connect? Let s create
             something amazing together.
           </motion.p>
         </div>
@@ -160,4 +160,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

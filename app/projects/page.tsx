@@ -13,7 +13,7 @@ import { Project } from "@/types/types";
 import Image from "next/image";
 import ProjectModal from "@/components/sections/Projects/ProjectModal";
 import GoBackButton from "@/components/GoBackButton";
-const page = () => {
+const Page = () => {
   const projects = [
     {
       id: 1,
@@ -207,4 +207,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
