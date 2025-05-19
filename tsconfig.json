@@ -27,7 +27,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/sections/Hero.jsx"
+    "components/sections/Hero.jsx",
+    "hooks/send-email.js"
   ],
   "exclude": ["node_modules"]
 }
