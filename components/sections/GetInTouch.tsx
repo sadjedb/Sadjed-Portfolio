@@ -30,8 +30,8 @@ const GetInTouch = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          I'm currently available for freelance projects, full-time positions,
-          or consulting work. Let's create something amazing together!
+          I m currently available for freelance projects, full-time positions,
+          or consulting work. Let s create something amazing together!
         </motion.p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
