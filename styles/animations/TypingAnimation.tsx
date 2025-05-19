@@ -9,14 +9,12 @@ const TypingAnimation = ({ fullText }: TypingAnimationProps) => {
   const [text, setText] = useState("");
   const [cursorVisible, setCursorVisible] = useState(true);
   const [isTypingComplete, setIsTypingComplete] = useState(false);
-  console.log(text);
   useEffect(() => {
     let index = 0;
     const typingInterval = setInterval(() => {
       if (index < fullText.length) {
         setText((prev) => prev + fullText.charAt(index));
-        console.log(index);
-        console.log(fullText.charAt(index));
+
         index++;
       } else {
         clearInterval(typingInterval);

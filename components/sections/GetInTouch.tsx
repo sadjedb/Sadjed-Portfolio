@@ -8,14 +8,16 @@ const GetInTouch = () => {
     <motion.section
       className="py-16 bg-gray-50"
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8 }}
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.h2
           className="text-3xl font-bold mb-6"
           initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           Interested in working together?
@@ -24,11 +26,12 @@ const GetInTouch = () => {
         <motion.p
           className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.2 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2, duration: 0.5 }}
         >
-          I m currently available for freelance projects, full-time positions,
-          or consulting work. Let s create something amazing together!
+          I'm currently available for freelance projects, full-time positions,
+          or consulting work. Let's create something amazing together!
         </motion.p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

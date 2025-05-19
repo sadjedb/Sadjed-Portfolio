@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Simple E-Commerce Template",
+    "slug": "simple-ecommerce-template",
+    "category": "E-commerce",
+    "description": "A modern clothing e-commerce website with responsive design and secure checkout.",
+    "fullDescription": "Developed a fully functional e-commerce website for clothing, featuring a user-friendly interface, secure checkout, and a seamless shopping experience. The platform includes product categorization, search functionality, and responsive design for optimal performance across devices.",
+    "image": "https://media.discordapp.net/attachments/846058639373500436/1373985026852524053/image.png?ex=682c66c5&is=682b1545&hm=50df6b22c3f7a78104e7324f4979c0db58efbff3ab00eb2b967d527bafe23359&=&format=webp&quality=lossless&width=699&height=968",
+    "demoLink": "http://visionshop.netlify.app/",
+    "githubLink": "https://github.com/VisionWeb-Devs/simple-ecommerce-template",
+    "technologies": ["NextJS", "Tailwind CSS", "shadcn", "NodeJS", "Express"]
+  },
+  {
+    "id": 2,
+    "title": "GSI Ascenseurs Website",
+    "slug": "gsi-ascenseurs-website",
+    "category": "Business",
+    "description": "Professional website for an elevator sales agency showcasing products and services.",
+    "fullDescription": "Created a website for an agency specializing in elevator sales, showcasing products, services, and expertise in the industry. Designed with a professional and modern layout to highlight the agency’s offerings and ensure an informative user experience.",
+    "image": "https://cdn.discordapp.com/attachments/846058639373500436/1373985569817755749/image.png?ex=682c6747&is=682b15c7&hm=25ab457b0c3a0456974808459b61938958f37aa96b73a6152ed202a8a3e80756&",
+    "demoLink": "https://gsiascenseurs.com/",
+    "githubLink": "https://github.com/sadjedb/GSIportfolio",
+    "technologies": ["NextJS", "Tailwind CSS", "NodeJS", "Nodemon"]
+  },
+  {
+    "id": 3,
+    "title": "Arriach Travel Agency",
+    "slug": "arriach-travel-agency",
+    "category": "Travel",
+    "description": "A travel agency website highlighting destinations, services, and immersive travel experiences.",
+    "fullDescription": "Developed a travel agency website showcasing destinations, services, and travel experiences. Designed with a visually appealing layout, the site highlights the agency’s offerings and expertise while ensuring a smooth and engaging user experience.",
+    "image": "https://media.discordapp.net/attachments/846058639373500436/1373987979198070916/screencapture-arriache-netlify-app-2025-05-19-12_37_14.png?ex=682c6985&is=682b1805&hm=f105f2eccf23523aa78f26b04f6618c27e24f8d2db18f812c6894a46e57c2083&=&format=webp&quality=lossless&width=998&height=968",
+    "demoLink": "https://arriache.netlify.app/",
+    "githubLink": "https://github.com/VisionWeb-Devs/arriache",
+    "technologies": ["NextJS", "Tailwind CSS", "shadcn"]
+  },
+
+  {
+    "id": 4,
+    "title": "Estudy Platform",
+    "slug": "estudy-platform",
+    "category": "Education",
+    "description": "An online learning platform designed for students to access courses, materials, and track progress.",
+    "fullDescription": "Developed a modern online education platform tailored for students to access courses, learning materials, and track their academic progress. Built with a clean UI and a responsive layout to ensure a seamless learning experience across devices.",
+    "image": "https://cdn.discordapp.com/attachments/846058639373500436/1373989163262808144/image.png?ex=682c6aa0&is=682b1920&hm=d7bddc607cf41f6bef516d5ef3379d6feabf838a469aafac504b0c904dfb181e&",
+    "demoLink": "https://estudy.duckdns.org/",
+    "githubLink": "https://github.com/VisionWeb-Devs/estudy",
+    "technologies": [
+      "NextJS",
+      "Tailwind CSS",
+      "NodeJS",
+      "Express",
+      "Framer-motion"
+    ]
+  }
+]

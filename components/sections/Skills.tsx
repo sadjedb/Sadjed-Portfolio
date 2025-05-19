@@ -6,7 +6,7 @@ import {
   useInView,
   AnimatePresence,
 } from "framer-motion";
-
+import skillsDataa from "@/data/skills/skills.json" assert { type: "json" };
 export default function Skills() {
   const [activeCategory, setActiveCategory] = useState("all");
   const containerRef = useRef(null);
@@ -20,22 +20,7 @@ export default function Skills() {
     { id: "tools", label: "Tools" },
     { id: "design", label: "Design" },
   ];
-
-  const skillsData = [
-    { name: "HTML5", level: 95, category: "frontend", icon: "💻" },
-    { name: "CSS3", level: 90, category: "frontend", icon: "🎨" },
-    { name: "JavaScript", level: 92, category: "frontend", icon: "🔧" },
-    { name: "React", level: 90, category: "frontend", icon: "⚛️" },
-    { name: "Next.js", level: 85, category: "frontend", icon: "🔄" },
-    { name: "TypeScript", level: 40, category: "frontend", icon: "📝" },
-    { name: "Tailwind CSS", level: 85, category: "frontend", icon: "🌬️" },
-    { name: "Node.js", level: 75, category: "backend", icon: "🖥️" },
-    { name: "Express", level: 70, category: "backend", icon: "🚂" },
-    { name: "Git", level: 60, category: "tools", icon: "🔄" },
-    { name: "Figma", level: 80, category: "design", icon: "🎭" },
-    { name: "Photoshop", level: 40, category: "design", icon: "🖌️" },
-    { name: "UI/UX", level: 70, category: "design", icon: "👁️" },
-  ];
+  const skillsData = skillsDataa.skillsData;
 
   useEffect(() => {
     if (isInView) {
