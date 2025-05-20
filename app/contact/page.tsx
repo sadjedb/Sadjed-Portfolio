@@ -69,7 +69,7 @@ const Page = () => {
             transition={{ delay: 0.2 }}
             className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto"
           >
-            Have a project in mind or just want to connect? Let s create
+            Have a project in mind or just want to connect? Lets create
             something amazing together.
           </motion.p>
         </div>
